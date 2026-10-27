@@ -2,6 +2,8 @@
 
 北京创游互娱科技有限公司官方网站。
 
+官网：https://createjoy.github.io/chuangyouhuyu-official-website/
+
 静态网站，包含公司简介与九款休闲小游戏介绍，适配桌面与手机。
 
 ## 文件
@@ -21,6 +23,7 @@ python3 -m http.server 8766 --directory dist
 ## 发布
 
 GitHub Pages 部署目录为 `dist/`，只发布静态网站内容。
+更新 `main` 分支后，GitHub Actions 自动部署。
 
 ## 版权
 
